@@ -1,0 +1,5 @@
+{
+  "name": "Aura - Predictive Hospital Management",
+  "description": "An agentic AI system that analyzes various data points to proactively recommend optimal staffing levels, medical supply management, and patient advisories for hospitals during high-demand periods in India.",
+  "requestFramePermissions": []
+}
