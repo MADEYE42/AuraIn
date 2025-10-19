@@ -39,7 +39,7 @@
 The system employs three specialized AI agents that analyze hospital data and generate actionable recommendations:
 
 - **🩺 Florence** - Staffing & Scheduling Expert
-- **💊 Caduceus** - Supply Chain Analyst  
+- **💊 Caduceus** - Supply Chain Analyst
 - **📢 Charaka** - Public Health Communicator
 
 By proactively analyzing trends and making data-driven predictions, Aura ensures hospitals are always prepared, reducing wait times, preventing supply shortages, and improving patient outcomes.
@@ -49,12 +49,14 @@ By proactively analyzing trends and making data-driven predictions, Aura ensures
 ## ✨ Key Features
 
 ### 📊 **Real-Time Dashboard**
+
 - **7-Day Patient Surge Forecast**: Visual representation of predicted patient loads
 - **Resource Utilization Metrics**: Live tracking of staff, beds, and ventilator usage
 - **System Health Monitoring**: Real-time status of AI agents, database sync, and API connectivity
 - **Critical Alerts**: Immediate warnings for predicted surges (e.g., 95% increase during Diwali)
 
 ### 👨‍⚕️ **Intelligent Staffing Management**
+
 - View and manage hospital staff across specialties (Doctors, Nurses, Technicians, etc.)
 - Real-time status tracking (On Duty, On Call, Off)
 - Shift management (Morning, Evening, Night)
@@ -62,6 +64,7 @@ By proactively analyzing trends and making data-driven predictions, Aura ensures
 - Inline editing with instant database updates
 
 ### 🏥 **Smart Supply Chain Management**
+
 - Comprehensive inventory tracking for medical supplies
 - Visual stock level indicators with color-coded alerts
 - Category-based organization (Respiratory, Emergency, Medications, etc.)
@@ -69,6 +72,7 @@ By proactively analyzing trends and making data-driven predictions, Aura ensures
 - Real-time stock updates with capacity management
 
 ### 📣 **Public Health Advisory System**
+
 - Generate contextual health advisories for patients and the public
 - Pre-configured topics: Monsoon Health, Diwali Safety, Heat Waves, COVID-19 Boosters
 - Custom topic generation for emerging health concerns
@@ -76,6 +80,7 @@ By proactively analyzing trends and making data-driven predictions, Aura ensures
 - Conversation history tracking for reference
 
 ### 🎨 **Modern User Interface**
+
 - Responsive design for desktop, tablet, and mobile devices
 - Dark mode optimized for reduced eye strain during long shifts
 - Intuitive navigation with sidebar (desktop) and bottom navigation (mobile)
@@ -89,48 +94,58 @@ By proactively analyzing trends and making data-driven predictions, Aura ensures
 Aura's intelligence is powered by three specialized AI agents, each built on Google's Gemini 2.5 Flash model:
 
 ### 🩺 Florence - Staffing & Scheduling Expert
+
 **Role**: Optimizes hospital staffing based on predicted patient loads and current staff availability.
 
 **Capabilities**:
+
 - Analyzes current staff distribution across specialties and shifts
 - Cross-references with 7-day patient surge predictions
 - Recommends staffing adjustments (additional shifts, on-call activations)
 - Suggests specialty-specific allocations (e.g., more ICU nurses during respiratory illness surges)
 
 **Example Output**:
-> - Increase ICU nursing staff by 30% for the next 72 hours  
-> - Activate on-call respiratory specialists for Diwali shift coverage  
+
+> - Increase ICU nursing staff by 30% for the next 72 hours
+> - Activate on-call respiratory specialists for Diwali shift coverage
 > - Add evening shift general practitioners to handle overflow cases
 
 ---
 
 ### 💊 Caduceus - Supply Chain Analyst
+
 **Role**: Ensures critical medical supplies are always available by predicting demand and identifying shortages.
 
 **Capabilities**:
+
 - Monitors real-time inventory levels across all supply categories
 - Identifies items below low-stock thresholds
 - Predicts high-demand supplies based on event types (burns during Diwali, respiratory during monsoon)
 - Generates priority procurement recommendations
 
 **Example Output**:
-> - **URGENT**: Restock burn dressings to 80% capacity (current: 45%)  
-> - Order 200 additional oxygen cylinders for respiratory surge  
+
+> - **URGENT**: Restock burn dressings to 80% capacity (current: 45%)
+> - Order 200 additional oxygen cylinders for respiratory surge
 > - Increase antibiotic inventory by 40% ahead of monsoon season
 
 ---
 
 ### 📢 Charaka - Public Health Communicator
+
 **Role**: Creates patient-facing health advisories to educate the public and reduce preventable hospital visits.
 
 **Capabilities**:
+
 - Generates clear, concise health advisories on any topic
 - Tailors communication for Indian healthcare context
 - Provides actionable prevention tips and symptom guidance
 - Maintains authoritative yet reassuring tone
 
 **Example Output** (Diwali Safety):
+
 > **Diwali Safety: Burns & Air Quality**
+>
 > - Keep a first-aid kit with burn ointment readily available
 > - Light firecrackers in open spaces; never indoors
 > - Wear cotton clothing; avoid synthetic fabrics near flames
@@ -141,42 +156,46 @@ Aura's intelligence is powered by three specialized AI agents, each built on Goo
 
 ## 🛠 Technology Stack
 
-| Component | Technology |
-|-----------|-----------|
-| **Frontend** | React 19.2 + TypeScript |
-| **Build Tool** | Vite 6.2 |
-| **AI/ML** | Google Gemini 2.5 Flash API |
+| Component            | Technology                                 |
+| -------------------- | ------------------------------------------ |
+| **Frontend**         | React 19.2 + TypeScript                    |
+| **Build Tool**       | Vite 6.2                                   |
+| **AI/ML**            | Google Gemini 2.5 Flash API                |
 | **State Management** | React Hooks (useState, useEffect, useMemo) |
-| **Data Storage** | LocalStorage (Browser-based persistence) |
-| **Styling** | TailwindCSS (utility-first CSS) |
-| **Icons** | Custom SVG components |
-| **Type Safety** | TypeScript 5.8 |
+| **Data Storage**     | LocalStorage (Browser-based persistence)   |
+| **Styling**          | TailwindCSS (utility-first CSS)            |
+| **Icons**            | Custom SVG components                      |
+| **Type Safety**      | TypeScript 5.8                             |
 
 ---
 
 ## 📸 Screenshots
 
 ### Dashboard - Real-Time Hospital Overview
+
 ![Dashboard](./screenshots/Dashboard.png)
-*7-day patient surge forecast, resource utilization metrics, and critical alerts at a glance*
+_7-day patient surge forecast, resource utilization metrics, and critical alerts at a glance_
 
 ---
 
 ### Staff Management - AI-Powered Staffing Recommendations
+
 ![Staff Management](./screenshots/Staff%20Management.png)
-*Manage hospital staff with real-time status updates and receive intelligent staffing suggestions from Florence*
+_Manage hospital staff with real-time status updates and receive intelligent staffing suggestions from Florence_
 
 ---
 
 ### Supply Chain - Predictive Inventory Management
+
 ![Supply Chain Management](./screenshots/Supply%20Chain%20Management.png)
-*Track medical supply levels with visual indicators and get procurement recommendations from Caduceus*
+_Track medical supply levels with visual indicators and get procurement recommendations from Caduceus_
 
 ---
 
 ### Advisory System - Public Health Communications
+
 ![Advisory Page](./screenshots/Advisory%20Page.png)
-*Generate and review patient advisories on seasonal health topics with AI agent Charaka*
+_Generate and review patient advisories on seasonal health topics with AI agent Charaka_
 
 ---
 
@@ -191,32 +210,36 @@ Aura's intelligence is powered by three specialized AI agents, each built on Goo
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/MADEYE42/AuraIn.git
    cd AuraIn
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Configure environment variables**
-   
+
    Create or edit the `.env.local` file in the project root:
+
    ```bash
    API_KEY=your_gemini_api_key_here
    ```
-   
+
    Replace `your_gemini_api_key_here` with your actual Gemini API key from [Google AI Studio](https://ai.google.dev/).
 
 4. **Start the development server**
+
    ```bash
    npm run dev
    ```
 
 5. **Open the app**
-   
+
    Navigate to [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### Build for Production
@@ -311,9 +334,9 @@ aura---predictive-hospital-management/
 
 ### Environment Variables
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `API_KEY` | Your Google Gemini API key | ✅ Yes |
+| Variable  | Description                | Required |
+| --------- | -------------------------- | -------- |
+| `API_KEY` | Your Google Gemini API key | ✅ Yes   |
 
 ### Modifying Mock Data
 
@@ -324,11 +347,12 @@ For testing or demo purposes, you can modify the sample data:
 - **Prediction Data**: Edit `data/mockData.ts` → `predictionData` array
 
 Example:
+
 ```typescript
 // data/mockData.ts
 export const predictionData: PredictionData[] = [
-  { day: 'Mon (Diwali)', predictedSurge: 95 },
-  { day: 'Tue', predictedSurge: 80 },
+  { day: "Mon (Diwali)", predictedSurge: 95 },
+  { day: "Tue", predictedSurge: 80 },
   // ... more days
 ];
 ```
