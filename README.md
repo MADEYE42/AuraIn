@@ -406,7 +406,7 @@ Contributions are welcome! Please follow these steps:
 
 **Gouresh Madye** - [@MADEYE42](https://github.com/MADEYE42)
 
-**Project Link**: [https://github.com/MADEYE42/AuraIn](https://github.com/MADEYE42/AuraIn)
+**Project Link**: [Website](https://aura-in.vercel.app)
 
 ---
 
